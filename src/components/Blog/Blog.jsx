@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
-const Blog = ({ blog }) => {
+import { MdBookmarks } from "react-icons/md";
+
+const Blog = ({ blog, handleAddToBookmarks }) => {
   console.log(blog);
   const {
     title,
@@ -11,7 +13,7 @@ const Blog = ({ blog }) => {
     hashTags,
   } = blog;
   return (
-    <div className="my-20 space-y-4">
+    <div className=" space-y-4">
       <img
         className="rounded-xl w-fit "
         src={cover}
@@ -29,13 +31,19 @@ const Blog = ({ blog }) => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="flex items-center justify-center gap-3 text-gray-500">
           <p className="text-gray-500 font-medium text-base">
             {reading_time} min read
           </p>
+          <button
+            onClick={() => handleAddToBookmarks(blog)}
+            className="text-lg"
+          >
+            <MdBookmarks />
+          </button>
         </div>
       </div>
-      <h2 className="text-2xl font-semibold">Title : {title}</h2>
+      <h2 className="text-2xl font-semibold">{title}</h2>
       <p className="text-gray-500 font-medium text-base">
         {hashTags.map((hash, idx) => (
           <span key={idx}> {hash}</span>
@@ -47,5 +55,6 @@ const Blog = ({ blog }) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleAddToBookmarks: PropTypes.func,
 };
 export default Blog;
