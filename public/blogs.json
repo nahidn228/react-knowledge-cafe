@@ -3,9 +3,9 @@
     "id": 1,
     "cover": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
     "title": "Exploring the World of Web Development",
-    "author": "John Doe",
+    "author": "Nahid Hasan",
     "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
-    "posted_date": "2024-10-15",
+    "posted_date": "15 Oct 2024",
     "reading_time": 8,
     "hashTags": ["#WebDevelopment", "#JavaScript", "#CSS", "#HTML"]
   },
@@ -15,7 +15,7 @@
     "title": "Mastering Tailwind CSS: A Comprehensive Guide",
     "author": "Jane Smith",
     "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
-    "posted_date": "2024-10-18",
+    "posted_date": "14 Oct 2024",
     "reading_time": 10,
     "hashTags": ["#TailwindCSS", "#ResponsiveDesign", "#CSS"]
   },
@@ -25,7 +25,7 @@
     "title": "Understanding JavaScript Closures",
     "author": "Emily Johnson",
     "author_img": "https://randomuser.me/api/portraits/women/68.jpg",
-    "posted_date": "2024-10-19",
+    "posted_date": "12 Oct 2024",
     "reading_time": 5,
     "hashTags": ["#JavaScript", "#Closures", "#FunctionalProgramming"]
   },
@@ -35,17 +35,17 @@
     "title": "Building Scalable Web Applications",
     "author": "Michael Brown",
     "author_img": "https://randomuser.me/api/portraits/men/60.jpg",
-    "posted_date": "2024-10-20",
+    "posted_date": "11 Oct 2024",
     "reading_time": 12,
     "hashTags": ["#WebDevelopment", "#Scalability", "#NodeJS", "#Backend"]
   },
   {
     "id": 5,
-    "cover": "https://images.unsplash.com/photo-1531497865148-6eac3447d1c0",
+    "cover": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
     "title": "A Deep Dive into JavaScript Promises",
     "author": "Chris Evans",
     "author_img": "https://randomuser.me/api/portraits/men/74.jpg",
-    "posted_date": "2024-10-21",
+    "posted_date": "10 Oct 2024",
     "reading_time": 7,
     "hashTags": ["#JavaScript", "#Promises", "#AsyncProgramming", "#ES6"]
   }
